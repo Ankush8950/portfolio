@@ -1,0 +1,129 @@
+
+.Card{
+    display: flex;
+    /* justify-content: flex-start; */
+    font-family: 'Montserrat', sans-serif;
+
+}
+.resume_single_list{
+    width: auto;
+    height: auto;
+    /* background-color: rgb(33, 144, 230); */
+    /* background-image: linear-gradient(145deg, #e2e8ec, #ffffff);   */
+    box-shadow: 5px 5px 15px #D1D9E6, -5px -5px 15px #ffffff;  
+    margin: 0vw 0vw 1.5vw 0vw;
+    border-radius: 0.5vw;
+}
+
+/* .resume_single_list:hover {
+    color: white;
+} */
+.resume_card{
+    width: 40vw;
+    height: auto;
+    padding: 1.5vw;
+}
+
+.resume_card:hover{
+    color: white;
+}
+
+.resume_headText{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.title> h2{
+    font-size: 1.8vw;
+    font-weight: 500;
+}
+
+.title p{
+    padding-top: 1vw ;
+    font-size: 1.3vw;
+}
+
+
+.date_of_time{
+    padding: 0.5vw 1.5vw 0.5vw 1.5vw;
+    background-color: white;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    margin-top: 0.8vw;
+    /* color: red; */
+
+}
+
+
+.date_of_time h2{
+    font-size: 1vw;
+    font-weight: 500;
+    /* color: red; */
+}
+
+/* .date_of_time h2:hover{
+    color: white;
+} */
+
+.resume_card > .line{
+    width: auto;
+    height: 0.01vw;
+    background-color: white;
+    margin-top: 2vw;
+}
+.para{
+    margin-top: 2vw;
+    font-size: 1.5vw;
+    letter-spacing: 1px;
+}
+
+.circle{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: -0.5vw;
+    margin-top: -10vw;
+
+}
+.ecprience_circle{
+    width: 1.5vw;
+    height: 1.5vw;
+    border-radius: 50%;
+    background-color: rgb(204, 209, 214);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.circle_div{
+    width: 0.9vw;
+    height: 0.9vw;
+    border-radius: 50%;
+    background-color: white;
+    /* background-image: linear-gradient(145deg, #e2e8ec, #ffffff);  
+    box-shadow: 5px 5px 15px #D1D9E6, -5px -5px 15px #ffffff;   */
+   
+}
+
+.line{
+    width: 2vw;
+    height: 0.5vw;
+    background-color: rgb(204, 209, 214);
+    display: flex;
+}
+
+
+
+@media screen and (max-width:1000px) {
+    /* .resume_card{
+        width: 60vw;
+    } */
+    .resume_headText{
+        display: flex;
+        align-items: flex-start;
+        flex-direction: column;
+    }
+    .circle{
+        margin-top: -10vw;
+    }
+}

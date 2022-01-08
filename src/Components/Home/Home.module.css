@@ -1,0 +1,108 @@
+.home{
+    width: auto;
+    height: 50vw;
+    background-color: rgb(236,240,243);
+    /* background-color: red ; */
+    padding: 7vw 0 0 2.5vw;
+    display: flex;
+
+}
+
+.user_datas{
+    width: 60%;
+    height: auto;
+}
+
+.user_datas .head{
+    font-weight: 300;
+}
+
+.user_data span{
+    color: rgb(209, 66, 66);
+}
+
+.user_datas .head_data{
+    margin-top: 1.5vw;
+    font-size: 4.2vw;
+    font-weight: 800;
+    line-height: 5vw;
+}
+.user_datas .para{
+    padding-right: 8vw;
+    margin-top: 1.3vw;
+    line-height: 2vw;
+    font-size: 1.5vw;
+    word-spacing: 0.1vw;
+    letter-spacing: 0.029vw;
+}
+
+.icon{
+    margin-top: 10vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 8vw;
+}
+
+/* .social_icon{
+    margin-top: 10vw;
+} */
+
+.btn{
+    width: 5vw;
+    height: 5vw;
+    margin: 1vw;
+    border: none;
+    border-radius: 0.8vw;
+    background-color: white;
+    /* box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset; */
+    /* box-shadow: rgba(0, 0, 0.1, 0) 0px 2px 6px, rgba(0.5, 0.1, 0.1, 0.1) 0px 7px 13px 3px, rgba(0, 0, 0, 0.2) 0px -1px 0px inset; */
+    background-image: linear-gradient(145deg, #e2e8ec, #ffffff);  
+    box-shadow: 5px 5px 15px #D1D9E6, -5px -5px 15px #ffffff;  
+}
+.social_icon_head{
+    margin-left: 1vw;
+    font-weight: 400;
+    font-size: 1.5vw;
+}
+.btn{
+    cursor: pointer;
+}
+
+.btn a{
+    font-size: 1.5vw;
+    color: black;
+    cursor: pointer;
+}
+
+
+.Overlay{
+    position: relative;
+    margin-top: 5vw;
+    width: 35vw;
+    height: 35vw;
+    background-color: rgb(229,234,238);
+    box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px, rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
+}
+
+.Overlay img{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 38vw;
+    height: 50vw;
+}
+
+
+@media screen and (max-width:1000px) {
+    .home{
+        height: 100%;
+        display: flex;
+        align-items: flex-start;
+        justify-content: center;
+        /* flex-direction: row-reverse; */
+        flex-direction: column-reverse;
+
+    }
+}

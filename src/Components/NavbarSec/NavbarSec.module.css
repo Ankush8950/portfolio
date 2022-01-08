@@ -1,0 +1,56 @@
+.NavbarSec{
+    width: auto;
+    height: auto;
+    background-image: linear-gradient(145deg, #e2e8ec, #ffffff);  
+    /* box-shadow: 5px 5px 15px #D1D9E6, -5px -5px 15px #ffffff;   */
+    /* background-color: red; */
+}
+
+.NavbarSec ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+    border-radius: 0.5vw;
+    background-image: linear-gradient(145deg, #e2e8ec, #ffffff);  
+    box-shadow: 5px 5px 15px #D1D9E6, -5px -5px 15px #ffffff;  
+}
+
+.NavbarSec ul li button{
+    width: 24vw;
+    height: 7vw;
+    border: none;  
+    font-size: 1.34vw;
+    font-weight: 500;
+    background-color: transparent;
+}
+
+.NavbarSec ul li button:hover{
+    border-radius: 1vw;
+    background-image: linear-gradient(145deg, #e2e8ec, #ffffff);  
+    box-shadow: 5px 5px 15px #D1D9E6, -5px -5px 15px #ffffff;  
+}
+
+
+
+@media screen and (max-width:1000px) {
+    .NavbarSec ul{
+        width: 60vw;
+        height: 40vw;
+        /* background-color: red; */
+    }
+    .NavbarSec ul{
+        display: flex;
+        flex-direction: column;
+    }    
+    .NavbarSec ul li button{
+        width: 100vw;
+        height: 10vw;
+        font-size: 3vw;
+    } 
+    .NavbarSec ul li button:hover{
+        width: 70vw;
+        /* height: 4vw; */
+    }
+}
+

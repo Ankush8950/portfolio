@@ -1,0 +1,45 @@
+.resumeMain{
+    width: auto;
+    height: auto;
+    background-color: rgb(236,240,243);
+    /* background-color: red; */
+    padding: 0 2vw 0 2vw ;
+}
+
+.head{
+    padding-top: 8vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.head h1{
+    font-size: 3.3vw;
+}
+
+.secondNav{
+    margin-top: 3vw;
+}
+
+.educationInfo{
+    display: flex;
+    justify-content: space-between;
+    padding: 0vw 8vw 0 1vw;
+
+}
+
+
+
+
+@media screen and (max-width:1000px) {
+.secondNav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    padding: 0 0vw 0 0vw;
+  }
+  .educationInfo{
+      display: flex;
+      flex-direction: column;
+  }
+}
