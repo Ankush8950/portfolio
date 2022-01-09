@@ -2,11 +2,12 @@ import React,{ useState } from "react";
 import style from "./Navbar.module.css";
 import { Link } from "react-scroll";
 import profile from "../image/profile.jpg"
+import { BiMenuAltRight } from "react-icons/bi";
 
 const Navbar = () => {
   const [colorChange, setColorchange] = useState(false);
   const changeNavbarColor = () =>{
-    if(window.scrollY >= 200){
+    if(window.scrollY >= 150){
       setColorchange(true)
       // console.log(window.scrollY)
     }
@@ -67,6 +68,9 @@ const Navbar = () => {
                             <button>CONTACT</button>
                           </Link></li>
             </ul>
+          </div>
+          <div className={style.hamberger}>
+            <BiMenuAltRight />
           </div>
           </div>
     </>

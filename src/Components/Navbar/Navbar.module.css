@@ -2,7 +2,7 @@
 
 .navbarMain{
     width: auto;
-    height: 8vw;  
+    height: 7.5vw;  
     font-family: 'Montserrat', sans-serif;
     /* background-image: linear-gradient(145deg, #e2e8ec, #ffffff);   */
     background-color: rgb(236,240,243);
@@ -21,7 +21,7 @@
 
 .navbarColorChange{
     width: auto;
-    height: 8vw;  
+    height: 7.5vw;  
     font-family: 'Montserrat', sans-serif;
     background-color: rgb(236,240,243);
     display: flex;
@@ -32,9 +32,10 @@
   
 }
 
-.active{
+/* .active{
+    border-bottom: 1px solid red;
     color: red;
-}
+} */
 
 .navleft{
     display: flex;
@@ -82,4 +83,33 @@
     border: none;
     background-color: transparent;
     cursor: pointer;
+}
+
+.hamberger{
+    display: none;
+}
+
+
+
+
+@media all and (max-width:1000px) {
+    .navbarMain{
+        min-height: 10vw;
+    }
+    
+    .navright{
+       display: none; 
+    }
+    .hamberger{
+        display: block;
+        font-size: 5vw;
+    }
+
+}
+
+
+@media all and (max-width:300px) {
+    .navbarMain{
+        min-height: 12vw;
+    }
 }

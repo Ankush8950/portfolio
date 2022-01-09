@@ -18,7 +18,7 @@ const Home = () => {
             <div className={Homestyle.user_data}>
                 <h3 className={Homestyle.head}>WELCOME TO MY WORLD</h3>
                 <h1 className={Homestyle.head_data}>Hi, I’m <span>Ankush kumar</span><br/>
-                    a Developer.
+                <span>a</span> Developer.
                 </h1>
                 <p className={Homestyle.para}>I use animation as a third dimension by which to simplify experiences and kuiding thro each and every interaction. I’m not adding motion just to spruce things up, but doing it in ways that.</p>
             </div>

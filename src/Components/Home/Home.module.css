@@ -13,15 +13,20 @@
     height: auto;
 }
 
-.user_datas .head{
-    font-weight: 300;
+.user_data .head{
+    font-size: 1.5vw;
+    font-weight: 100;
+    opacity: .8;
+    
+
 }
 
 .user_data span{
+    font-size: 4.2vw;
     color: rgb(209, 66, 66);
 }
 
-.user_datas .head_data{
+.user_data .head_data{
     margin-top: 1.5vw;
     font-size: 4.2vw;
     font-weight: 800;
@@ -95,14 +100,69 @@
 }
 
 
-@media screen and (max-width:1000px) {
+@media all and (max-width:1000px) {
     .home{
-        height: 100%;
+        height: auto;
         display: flex;
-        align-items: flex-start;
+        align-items: center;
         justify-content: center;
-        /* flex-direction: row-reverse; */
         flex-direction: column-reverse;
-
+        /* align-items: flex-start; */
+        /* justify-content: center; */
+        /* flex-direction: row-reverse; */
+        /* flex-direction: column-reverse; */
     }
+
+    .Overlay{
+        margin-top: 10vw;
+        width: 65vw;
+        height: 70vw;
+    }
+    .Overlay img{
+        width: 75vw;
+        height: 95vw;
+    }
+    .user_datas{
+        margin-top: 5vw;
+    }
+
+}
+
+@media all and (max-width:700px) {
+    .user_data{
+        margin-top: 2vw;
+    }
+    .user_data .head{
+        margin-top: 5.5vw;
+    }
+    .icon{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .skillOn{
+        margin-top: 1.5vw;
+    }
+}
+
+@media all and (max-width:200px) {
+    .user_data{
+        margin-top: 2vw;
+    }
+    .user_data .head{
+        font-size: 2vw;
+        /* margin-top: 5.5vw; */
+    }
+    .user_data .head_data{
+        font-size: 5.5vw;
+        line-height: 7.3vw;
+    }
+    .head_data span{
+        font-size: 5.5vw;
+    }
+
+    .skillOn{
+        margin-top: 1.5vw;
+    }
+
 }
