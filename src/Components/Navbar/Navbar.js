@@ -45,7 +45,7 @@ const Navbar = () => {
                             to="portfolio"
                             spy={true}
                             smooth={true}
-                            offset={50}
+                            offset={-100}
                             duration={500}>
                             <button>PORTFOLIO</button>
                           </Link></li>

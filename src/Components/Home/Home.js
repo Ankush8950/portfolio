@@ -30,7 +30,7 @@ const Home = () => {
                 <button className={Homestyle.btn}><a href="https://www.linkedin.com/in/ankush-kumar-275129176/" ><FiLinkedin /></a> </button>
             </div>
 
-            <div className={Homestyle.skillOn}>
+            <div className={Homestyle.social_icon}>
             <h2 className={Homestyle.social_icon_head}>BEST SKILL ON</h2>
                 <button className={Homestyle.btn}><a href="https://www.linkedin.com/in/ankush-kumar-275129176/" ><FaReact/></a> </button>
                 <button className={Homestyle.btn}><a href="https://www.linkedin.com/in/ankush-kumar-275129176/" ><DiJavascript /></a></button>

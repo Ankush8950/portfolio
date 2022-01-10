@@ -2,7 +2,6 @@
     width: 30vw;
     height: inherit;
     padding: 2vw;
-    /* background-color: red; */
     background-color: EBEFF2;
     box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px, rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
     border-radius: 1.9vw;
@@ -18,15 +17,17 @@
     color: red;
 }
 .container{
-    width: 25vw;
-    height: auto;
-    /* background-color: khaki; */
-    
+    width: 26vw;
+    height: auto; 
+    display: flex;
+    /* align-items: center; */
+    /* justify-content: center;   */
+    flex-direction: column; 
 }
 
 .card_image img{
-    width: 25vw;
-    height: 21vw;
+    width: 26vw;
+    height: 20vw;
     border-radius: 1vw;
     transition: transform 0.2s;
 }
@@ -38,7 +39,7 @@
 .card_haed{
     margin-top: 1.6vw;
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     justify-content: space-between;
     cursor: pointer;
 }
