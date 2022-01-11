@@ -19,6 +19,7 @@ const Portfolio = () => {
                       id={val.id}
                       imgdata={val.imgdata}
                       article={val.article}
+                      text={val.text}
                     />
                   })
                 }

@@ -22,7 +22,10 @@
     padding: 1vw;
     display: flex;
     flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
 }
+
 @media all and (max-width:1000px) {
     .portfolio_card{
         display: flex;

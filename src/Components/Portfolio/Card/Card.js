@@ -2,7 +2,7 @@ import React from 'react'
 import cardStyle from "./Card.module.css"
 import { FiHeart } from "react-icons/fi";
 
-const Card = ({imgdata}) => {
+const Card = ({imgdata,text}) => {
     return (
         <>
          <div className={cardStyle.card}>
@@ -15,7 +15,7 @@ const Card = ({imgdata}) => {
                        <h3 className={cardStyle.icons}><FiHeart /> <span>600</span></h3> 
                     </div>
                     <div className={cardStyle.card_text}>
-                        <h1>The services provide for design </h1>
+                        <h1>{text}</h1>
                     </div>
             </div>
          </div>   

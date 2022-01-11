@@ -87,16 +87,35 @@
 
 @media all and (max-width:1000px) {
     .card{
+        width: auto;
         display: flex;
         flex-direction: column;
         flex-wrap: wrap;
+    }
+    .card_image img{
+        width: 38vw;
+        height: 25vw;
+    }
+    .card_haed .text{
+        font-size: 2vw;
+    }
+    .card_haed h3{
+        font-size: 2vw;
+    }
+    .card_text h1{
+        width: auto;
+        font-size: 3vw;
+        display: flex;
+        flex-wrap: wrap;
+        inline-size: 38vw;
+        overflow-wrap: break-word;
     }
 }
 
 @media all and (max-width:700px) {
     .card_image img{
-        width: 40vw;
-        height: 30vw;
+        width: 60vw;
+        height: 40vw;
     }
     .card{
         width: auto;
@@ -111,22 +130,21 @@
         font-size: 2vw;
     }
     .card_text h1{
-        font-size: 4vw;
+        font-size: 5vw;
         display: flex;
         flex-wrap: wrap;
-        inline-size: 40vw;
+        inline-size: 60vw;
         overflow-wrap: break-word;
-        /* background-color: blue; */
     }
 }
 
 @media all and (max-width:500px) {
     .card_image img{
-        width: 50vw;
-        height: 35vw;
+        width: 60vw;
+        height: 40vw;
     }
     .card{
-        /* width: ; */
+        width: auto;
         display: flex;
         align-items: center;
         flex-wrap: wrap;    
@@ -138,10 +156,10 @@
         font-size: 3vw;
     }
     .card_text h1{
-        font-size: 5vw;
+        font-size: 6vw;
         display: flex;
         flex-wrap: wrap;
-        inline-size: 50vw;
+        inline-size: 60vw;
         overflow-wrap: break-word;
     }
 }
