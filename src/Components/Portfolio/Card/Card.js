@@ -8,7 +8,7 @@ const Card = ({imgdata}) => {
          <div className={cardStyle.card}>
             <div className={cardStyle.container}>
                     <div className={cardStyle.card_image}>
-                        <img src={imgdata} alt="projact" />
+                        <img src={imgdata} alt="personal portfolio images" />
                     </div>
                     <div className={cardStyle.card_haed}>
                        <h3 className={cardStyle.text}>Devlopment</h3>

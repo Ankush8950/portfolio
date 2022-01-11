@@ -1,4 +1,4 @@
-import landing_page from "../image/sp_pro.png"
+import landing_page from "../image/sp_projact.png"
 import ATG from "../image/ATG.png"
 export const data = [
     {
