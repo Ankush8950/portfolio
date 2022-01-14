@@ -2,6 +2,7 @@
     width: auto;
     height: auto;
     background-color: rgb(236,240,243);
+    padding-top: 5vw;
 
 }
 
@@ -13,12 +14,13 @@
 }
 
 .head h2{
-    font-size: 4vw;
-    font-weight: 600;
+    font-size: 5vw;
+    font-weight: 500;
+    line-height: 5vw;
 }
 
 .portfolio_card{
-    margin-top: 5vw;
+    margin-top: 4vw;
     padding: 1vw;
     display: flex;
     flex-wrap: wrap;

@@ -32,10 +32,7 @@
   
 }
 
-/* .active{
-    border-bottom: 1px solid red;
-    color: red;
-} */
+
 
 .navleft{
     display: flex;
@@ -94,7 +91,10 @@
 
 @media all and (max-width:1000px) {
     .navbarMain{
-        min-height: 10vw;
+        min-height: 15vw;
+    }
+    .navbarColorChange{
+        height: 15vw;
     }
     
     .navright{
@@ -102,7 +102,11 @@
     }
     .hamberger{
         display: block;
-        font-size: 5vw;
+        font-size: 7vw;
+    }
+
+    .navleft h2{
+        font-size: 2vw;
     }
 
 }
@@ -110,6 +114,18 @@
 
 @media all and (max-width:300px) {
     .navbarMain{
-        min-height: 12vw;
+        min-height: 20vw;
+        font-size: 12vw;
+    }
+    .navbarColorChange{
+        height: 20vw;
+    }
+    .profile{
+        width: 10vw;
+        height: 10vw;
+    }
+    .navleft img{
+        width: 10vw;
+        height: 12vw;
     }
 }

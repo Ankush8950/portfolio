@@ -121,7 +121,7 @@
         width: auto;
         display: flex;
         align-items: center;
-        flex-wrap: wrap;    
+        flex-wrap: wrap; 
     }
     .card_haed .text{
         font-size: 2vw;
@@ -140,26 +140,35 @@
 
 @media all and (max-width:500px) {
     .card_image img{
-        width: 60vw;
-        height: 40vw;
+        width: 73vw;
+        height: 45vw;
     }
     .card{
         width: auto;
         display: flex;
         align-items: center;
-        flex-wrap: wrap;    
+        flex-wrap: wrap;  
+    }
+    .container{
+        /* width: 75vw; */
+        padding: 3vw;
+    }
+    .card_haed{
+        margin-top: 3vw;
+
     }
     .card_haed .text{
-        font-size: 3vw;
+        font-size: 3.3vw;
     }
     .card_haed h3{
-        font-size: 3vw;
+        font-size: 3.3vw;
     }
     .card_text h1{
-        font-size: 6vw;
+        margin-top: 3vw;
+        font-size: 5vw;
         display: flex;
         flex-wrap: wrap;
-        inline-size: 60vw;
+        inline-size: 70vw;
         overflow-wrap: break-word;
     }
 }
